@@ -1,18 +1,19 @@
-/* Remove padding and margin from the body and html */
-body, html {
-    padding: 0;
-    margin: 0;
-  }
-  
-  /* Ensure the map container, body, and html take up the full height */
-  #map,
-  body,
-  html {
-    height: 100%;
-  }
-  
-  /* Optionally, add some custom styling for other elements */
-  #map {
-    border: 2px solid #000; /* Example border around the map for visibility */
-  }
-  
+/* Legend container */
+.info.legend {
+  background: white;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Legend color box */
+.info.legend i {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  border-radius: 3px;
+}
